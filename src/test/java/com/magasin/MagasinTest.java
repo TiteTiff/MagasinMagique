@@ -24,6 +24,7 @@ class MagasinTest {
         app.updateQuality();
         assertEquals("Kryptonite", app.items[0].name);
         int i=0;
+
         while(i<items.length){
                 try (BufferedWriter bw = new BufferedWriter(new FileWriter("GoldenMasterTest.txt"))) {
                 bw.write(app.items[0].name);
