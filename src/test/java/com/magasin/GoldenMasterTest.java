@@ -163,4 +163,6 @@ class GoldenMasterTest {
     }
 }
 
+//trouver solution pour les résultats de tests dans un même fichier
+
 
